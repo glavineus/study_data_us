@@ -1,0 +1,30 @@
+---
+pagetitle: "Standardized Tests"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float:
+     collapsed: false
+     smooth_scroll: false
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<br><br><br>
+
+---
+title: "개인 블로그 (Personal Blog)"
+---
+
+### Rmarkdown을 이용한 Personal Blog 제작
+
+개인의 차이가 있을 수 있지만, cover letter와 resume로만 나를 보여주기에는 한없이 부족한 시대가 되었다. 따라서, 그 동안 내가 분석한 코드, 보고서, 슬라이드 등을 나만의 포트폴리오로 정리/가공하여 recruiter, hiring manager, interviewee들에게 어필할 수 있다. Publicly access 가능한 프로젝트의 결과물을 공유한다면, 단순히 resume나 cover letter에 글만으로 드러내기 힘든 부분들은 보여줄 수 있는 장점이 있다.
+
+블로그를 제작하기 위한 여러가지 툴이 있지만, 여기에선 `Rmarkdown`을 이용해서 간단하게 제작할 수 있는 블로그 제작 튜토리얼을 공유하고자 한다.
+<br><br>
+
+#### 1. `_site.yml` 과 `index.Rmd`
+
+
+

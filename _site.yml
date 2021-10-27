@@ -35,12 +35,12 @@ navbar:
       - text: "코딩 공부하기"
         href: code.html
 
-    - text: "인턴십/잡서칭"
+    - text: "블로그/포트폴리오"
       menu:
-      - text: "학교 커리어센터"
-        href: career_center.html
-      - text: "네트워킹/링크드인"
-        href: networking_linkedin.html
+      - text: "개인 블로그"
+        href: perosnal_blog.html
+      - text: "포트폴리오"
+        href: portfolio.html
 output:
   html_document:
     theme: cosmo

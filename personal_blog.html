@@ -11,7 +11,7 @@
 
 
 
-<title>Index</title>
+<title>Standardized Tests</title>
 
 <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -230,6 +233,75 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
 
 </head>
 
@@ -237,6 +309,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-sm-12 col-md-4 col-lg-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
 
 
 
@@ -309,16 +391,16 @@ $(document).ready(function () {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    인턴십/잡서칭
+    블로그/포트폴리오
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="career_center.html">학교 커리어센터</a>
+      <a href="perosnal_blog.html">개인 블로그</a>
     </li>
     <li>
-      <a href="networking_linkedin.html">네트워킹/링크드인</a>
+      <a href="portfolio.html">포트폴리오</a>
     </li>
   </ul>
 </li>
@@ -331,31 +413,20 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">개인 블로그 (Personal Blog)</h1>
 
 </div>
 
 
-<p><link rel="stylesheet" href="styles.css" type="text/css"> <link rel="stylesheet" href="academicons/css/academicons.min.css"/></p>
-<p><br></p>
-<p align="center">
-<img src="images/analytics-g4cec2b4cd_1280.jpg" style="width:50%; border:0.5px solid; margin-right: 20px" align="center">
-</p>
-<p><br></p>
-<div id="개요" class="section level3">
-<h3>개요</h3>
-<p>과거에 미국 데이터 석사 유학을 결심하고 혼자 지원 준비를 하면서 챙겨야 할 것이 많아서, 스트레스를 많이 받았었습니다. 특히, 문과 출신으로서 주변에 물어볼만한 곳도 마땅치 않았거든요 (문송합니다 😭).</p>
-<p>지난 몇 년간 주변 지인분들과 유학생들에게 데이터 사이언스로의 커리어 전환과 미국 유학에 대해서 많은 질문을 받아왔었고, 여러 경험들을 종합하여 위키 페이지를 만들게 되었습니다.</p>
-<p>저처럼 미국 데이터 석사 유학과 현지 취업을 준비하시는 분들에게 조금이나마 도움이 되었으면 좋겠습니다.</p>
-<p><br><br></p>
+<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
+<p><br><br><br></p>
+<div id="rmarkdown을-이용한-personal-blog-제작" class="section level3">
+<h3>Rmarkdown을 이용한 Personal Blog 제작</h3>
+<p>개인의 차이가 있을 수 있지만, cover letter와 resume로만 나를 보여주기에는 한없이 부족한 시대가 되었다. 따라서, 그 동안 내가 분석한 코드, 보고서, 슬라이드 등을 나만의 포트폴리오로 정리/가공하여 recruiter, hiring manager, interviewee들에게 어필할 수 있다. Publicly access 가능한 프로젝트의 결과물을 공유한다면, 단순히 resume나 cover letter에 글만으로 드러내기 힘든 부분들은 보여줄 수 있는 장점이 있다.</p>
+<p>블로그를 제작하기 위한 여러가지 툴이 있지만, 여기에선 <code>Rmarkdown</code>을 이용해서 간단하게 제작할 수 있는 블로그 제작 튜토리얼을 공유하고자 한다. <br><br></p>
+<div id="site.yml-과-index.rmd" class="section level4">
+<h4>1. <code>_site.yml</code> 과 <code>index.Rmd</code></h4>
 </div>
-<div id="소개" class="section level3">
-<h3>소개</h3>
-<p><strong>글래빈</strong></p>
-<p>현재 뉴욕의 한 민간 의학 연구소에서 Biostatistician으로 일하고 있습니다. 각종 임상과 실험 등으로 생성되는 데이터를 분석/모델링하는 일과 소속 연구원들을 위한 통계/데이터 분석 강의 진행하는 일을 맡고 있습니다. 학부는 한국에서 졸업하였고, 이후에 Duke와 Cornell에서 각각 Analytics와 Biostatistics/Data Science 석사를 받았습니다.</p>
-<p><br></p>
-<p><strong>브라이언</strong></p>
-<p>뉴욕 월스트리트 은행 중 하나에서 Operations &amp; Analytics Vice President로 일하고 있습니다. 미국에서 학부를 졸업하였고, Duke에서 Analytics 석사를 받았습니다. 현재 일하면서 동시에 파트타임으로 Georgia Institute of Technology에서 Computer Science (Specialization: Machine Learning) 석사를 공부하고 있습니다.</p>
-<p><br><br></p>
 </div>
 
 <br><br>
@@ -364,6 +435,8 @@ $(document).ready(function () {
 </footer>
 
 
+</div>
+</div>
 
 </div>
 
@@ -396,6 +469,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
