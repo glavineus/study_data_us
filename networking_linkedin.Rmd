@@ -1,0 +1,28 @@
+---
+pagetitle: "네트워킹/링크드인"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float:
+     collapsed: false
+     smooth_scroll: false
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<br><br><br>
+
+---
+title: "네트워킹/링크드인"
+---
+
+### 궁금하면 일단 콜드콜 하기
+
+<br><br>
+
+### 링크드인 활용하기
+
+<br><br>
+
+

@@ -1,0 +1,29 @@
+---
+pagetitle: "Standardized Tests"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float:
+     collapsed: false
+     smooth_scroll: false
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<br><br><br>
+
+---
+title: "Standardized Tests"
+---
+
+### GRE vs. GMAT
+
+### TOEFL
+
+
+### 추가: Duolingo
+
+
+### 결론: Minimum score은 맞아야 한다
+

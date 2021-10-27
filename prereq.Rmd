@@ -1,0 +1,30 @@
+---
+pagetitle: "선수과목 (Prerequisites)"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float:
+     collapsed: false
+     smooth_scroll: false
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<br><br><br>
+
+---
+title: "선수과목 (Prerequisites)"
+---
+
+### 선수과목이란
+
+### 데이터 석사는 어떤 선수가목을 요구할까?
+
+
+### 선수과목을 MOOC로 해도 될까?
+
+
+### 대안은?
+
+

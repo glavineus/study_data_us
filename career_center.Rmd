@@ -1,0 +1,28 @@
+---
+pagetitle: "학교 커리어 센터"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float:
+     collapsed: false
+     smooth_scroll: false
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<br><br><br>
+
+---
+title: "학교 커리어 센터"
+---
+
+### Resume와 Cover Letter 첨삭 받기
+
+<br><br>
+
+### Career Fair
+
+<br><br>
+
+### 캠퍼스 리쿠르팅

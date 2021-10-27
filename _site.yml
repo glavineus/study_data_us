@@ -1,0 +1,61 @@
+name: "데이터 석사 유학 가이드"
+title: "데이터 유학 가이드"
+pagetitle: "데이터 석사 유학 가이드"
+base_url: https://dataus101.github.io/
+output_dir: "."
+navbar:
+  title: "데이터 석사 유학 가이드"
+  right:
+
+    - text: "지원 준비하기"
+      menu: 
+      - text: "데이터 직군 소개"
+        href: data_job_types.html
+      - text: "선수과목 (Prerequisites)"
+        href: prereq.html
+      - text: "Standardized Tests"
+        href: exams.html
+      - text: "학업계획서 (SOP/Personal Statement)"
+        href: sop.html
+      - text: "추천서"
+        href: reference.html
+      - text: "이력서 (Resume/CV)"
+        href: resume_cv.html
+      - text: "인터뷰/자기 소개 동영상"
+        href: interview_introvideo.html
+
+    - text: "합격 후 첫 수업 전까지"
+      menu:
+      - text: "프로그램/수업 파악하기"
+        href: understand_program.html 
+      - text: "Pre-semester 과제/시험"
+        href: pre-semester_hw_quiz.html 
+      - text: "통계 공부하기"
+        href: stat.html
+      - text: "코딩 공부하기"
+        href: code.html
+
+    - text: "커리어 관련"
+      menu:
+      - text: "학교 커리어센터"
+        href: career_ceter.html
+      - text: "네트워킹/링크드인"
+        href: networking_linkedin.html
+
+
+
+
+      href: prereq.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Writing"
+      href: writing.html
+    - text: "Speaking"
+      href: speaking.html
+output:
+  html_document:
+    theme: flatly
+    include:
+      in_header: header.html
+      after_body: footer.html
+    css: styles.css

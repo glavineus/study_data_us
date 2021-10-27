@@ -1,0 +1,25 @@
+---
+pagetitle: "학업계획서 (SOP/Personal Statement)"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float:
+     collapsed: false
+     smooth_scroll: false
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<br><br><br>
+
+---
+title: "학업계획서 (SOP/Personal Statement)"
+---
+
+### 학업 계획서는 왜 필요한가?
+
+### 학업 계획서의 중요성
+
+### 분량 조절하는 방법
+

@@ -1,0 +1,19 @@
+---
+pagetitle: "통계 공부하기"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float:
+     collapsed: false
+     smooth_scroll: false
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<br><br>
+
+### 통계
+
+데이터 분석과 모델링은 기본적으로 통계학에 기반을 두고 있습니다. 따라서, 기초 통계학과 회귀분석, 일반선형모델(Generalized Linear Model)까지는 어느 정도 알고 가셔야 머신러닝 데이터 마이닝 수업에 나오는 내용을 따라가실 수 있습니다.
+

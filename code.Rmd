@@ -1,0 +1,24 @@
+---
+pagetitle: "코딩 공부하기"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float:
+     collapsed: false
+     smooth_scroll: false
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<br><br>
+
+### 코딩 공부하기
+
+통계/수학과는 별개로 기초적인 데이터베이스를 다루는 코딩 공부를 하셔야 할 필요가 있습니다. 특히 미국 job market에서 entry level에게서 가장 중요하게 보는 technical interview 중에서 하나가 SQL입니다. 추후에 인턴십 기회를 잡기 위해서나 첫 job을 위해서는 SQL로 technical interview를 볼 정도로 감을 유지하는 것이 매우 중요합니다.
+
+
+
+
+
+
