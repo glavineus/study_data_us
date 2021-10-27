@@ -5,9 +5,6 @@ base_url: https://dataus101.github.io/
 output_dir: "."
 navbar:
   title: "데이터 석사 유학 가이드"
-  left:
-    - text: 만든 이
-      href: 
   right:
 
     - text: "지원 준비하기"
