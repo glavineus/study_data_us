@@ -43,7 +43,7 @@ navbar:
         href: networking_linkedin.html
 output:
   html_document:
-    theme: flatly
+    theme: cosmo
     include:
       in_header: header.html
       after_body: footer.html
