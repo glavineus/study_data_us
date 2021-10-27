@@ -41,17 +41,6 @@ navbar:
         href: career_ceter.html
       - text: "네트워킹/링크드인"
         href: networking_linkedin.html
-
-
-
-
-      href: prereq.html
-    - text: "Teaching"
-      href: teaching.html
-    - text: "Writing"
-      href: writing.html
-    - text: "Speaking"
-      href: speaking.html
 output:
   html_document:
     theme: flatly
