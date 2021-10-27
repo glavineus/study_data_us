@@ -5,6 +5,9 @@ base_url: https://dataus101.github.io/
 output_dir: "."
 navbar:
   title: "데이터 석사 유학 가이드"
+  left:
+    - text: 만든 이
+      href: 
   right:
 
     - text: "지원 준비하기"
@@ -23,7 +26,6 @@ navbar:
         href: resume_cv.html
       - text: "인터뷰/자기 소개 동영상"
         href: interview_introvideo.html
-
     - text: "합격 후 첫 수업 전까지"
       menu:
       - text: "프로그램/수업 파악하기"
@@ -34,14 +36,12 @@ navbar:
         href: stat.html
       - text: "코딩 공부하기"
         href: code.html
-
     - text: "블로그/포트폴리오"
       menu:
       - text: "개인 블로그"
-        href: perosnal_blog.html
+        href: personal_blog.html
       - text: "포트폴리오"
         href: portfolio.html
-
     - text: "인턴십/잡서칭"
       menu:
       - text: "학교 커리어 센터"
