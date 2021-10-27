@@ -1,0 +1,49 @@
+---
+pagetitle: "Portfolio"
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float:
+     collapsed: false
+     smooth_scroll: false
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<br><br><br>
+
+---
+title: "Resources"
+---
+
+
+### 석사 학교 지원 정보 요약 템플릿
+
+<br>
+
+### 지원 상태/결과 Tracker
+
+<br>
+
+### Resume 템플릿
+
+<br>
+
+### Cover Letter 템플릿
+
+<br>
+
+### LinkedIn Reachout 템플릿
+
+<br>
+
+### LinkedIn Networking Tracker
+
+<br>
+
+### Job Application Tracker
+
+
+
+

@@ -48,6 +48,8 @@ navbar:
         href: career_center.html
       - text: "링크드인 활용하기"
         href: networking_linkedin.html
+    - text: "Resources"
+      href: resources.html
 output:
   html_document:
     theme: cosmo
