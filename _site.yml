@@ -41,6 +41,13 @@ navbar:
         href: perosnal_blog.html
       - text: "포트폴리오"
         href: portfolio.html
+
+    - text: "인턴십/잡서칭"
+      menu:
+      - text: "학교 커리어 센터"
+        href: career_center.html
+      - text: "링크드인 활용하기"
+        href: networking_linkedin.html
 output:
   html_document:
     theme: cosmo
