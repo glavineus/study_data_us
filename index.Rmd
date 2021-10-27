@@ -25,6 +25,13 @@ output: html_document
 
 ### 소개
 
+**글래빈**
+
 현재 뉴욕에서 데이터 사이언티스트로 일하고 있습니다. 제가 일하는 회사는 민간 의학 연구소이고, 노벨상 수상자를 8명 배출한 오래된 연구기관입니다. 각종 임상과 실험 등으로 생성되는 데이터를 분석/모델링하는 일과 소속 연구원들을 위한 통계/데이터 분석 강의 진행하는 일을 맡고 있습니다. 학부는 한국에서 졸업하였고, 이후에 Duke와 Cornell에서 각각 Analytics와 Biostatistics/Data Science 석사를 받았습니다.
 
 
+<br>
+
+**브라이언**
+
+뉴욕 월스트리트 은행 중 하나에서 Operations & Analytics Vice President로 일하고 있습니다. 미국에서 학부를 졸업하였고, Duke에서 Analytics 석사를 받았습니다. 현재 일하면서 동시에 파트타임으로 Georgia Institute of Technology에서 Computer Science (Specialization: Machine Learning) 석사를 공부하고 있습니다.
