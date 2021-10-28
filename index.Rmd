@@ -42,7 +42,14 @@ output: html_document
 
 한국에서 잘 다니고 있던 대기업을 그만두고 데이터를 공부하기 위해 뉴욕으로 왔습니다. 현재 Columbia에서 Applied Analytics 석사를 공부하고 있습니다. 미국 생활에 적응하랴, 데이터 공부하랴, 숙제하랴, 인턴십 지원하랴 요즘 너무 바쁘게 지내고 있습니다.
 
-<br><br>
+<br><br><br>
 
 
 
+### 1:1 무료 멘토링/상담 신청하기
+<br>
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/data_us/1-to-1-mentoring'});return false;">Schedule time with us</a>
+<!-- Calendly link widget end -->
