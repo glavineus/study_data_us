@@ -48,6 +48,11 @@ output: html_document
 
 ### 1:1 무료 멘토링/상담 신청하기
 <br>
+
+매주 토요일 8pm-10pm EST에 석사 진학이나 데이터 커리어 관련하여 상담을 진행하고 있습니다.
+<br>
+
+
 <!-- Calendly link widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
